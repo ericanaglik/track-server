@@ -3,7 +3,7 @@ const express = require('express')
 const mongoose = require('mongoose')
 const bodyParser = require('body-parser')
 const authRoutes = require('./routes/authRoutes')
-const mongoUri = require('./config/keys').mongoURI
+const mongoUri = require('./config/keys').MongoURI
 
 const app = express()
 
